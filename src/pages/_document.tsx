@@ -1,4 +1,5 @@
 //_document sempre vai ser o component que irá executar apenas uma vez
+//_document não suporta css
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 export default class MyDocument extends Document {
